@@ -1,0 +1,20 @@
+{
+    "name": "cbwar/test-pack",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Cbwar\\TestPack\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Raphael Lisch",
+            "email": "cbwar@protonmail.com"
+        }
+    ],
+    "require": {
+        "overtrue/phplint": "*",
+        "phpcompatibility/php-compatibility": "*",
+        "phpstan/phpstan": "*"
+    }
+}
